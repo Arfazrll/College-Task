@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1734883622 source:c:\telkom university\semester 3\praktikum struktur data\tpmodul15\tree.cpp
+	"header.h"
+
+1734883622 c:\telkom university\semester 3\praktikum struktur data\tpmodul15\header.h
+	<iostream>
+	<string>
+

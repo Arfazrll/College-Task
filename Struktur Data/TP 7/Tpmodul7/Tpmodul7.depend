@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1729947255 source:c:\telkom university\semester 3\praktikum struktur data\tp 7\tpmodul7\main.cpp
+	<iostream>
+	"stack.h"
+
+1729946457 c:\telkom university\semester 3\praktikum struktur data\tp 7\tpmodul7\stack.h
+	<iostream>
+
+1729946625 source:c:\telkom university\semester 3\praktikum struktur data\tp 7\tpmodul7\stack.cpp
+	"stack.h"
+

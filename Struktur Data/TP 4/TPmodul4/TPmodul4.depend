@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1728145161 source:c:\telkom university\semester 3\praktikum struktur data\tp 4\tpmodul4\list.cpp
+	<iostream>
+	"header.h"
+
+1728316564 c:\telkom university\semester 3\praktikum struktur data\tp 4\tpmodul4\header.h
+	<iostream>
+
+1728144785 source:c:\telkom university\semester 3\praktikum struktur data\tp 4\tpmodul4\main.cpp
+	<iostream>
+	"header.h"
+	"list.cpp"
+
+1728145161 c:\telkom university\semester 3\praktikum struktur data\tp 4\tpmodul4\list.cpp
+	<iostream>
+	"header.h"
+

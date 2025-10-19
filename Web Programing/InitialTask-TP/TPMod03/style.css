@@ -1,0 +1,154 @@
+/* Styling untuk seluruh halaman */
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  background-color: #f0f4f8;
+  margin: 20px;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Styling untuk semua heading (h1, h2) - warna biru */
+h1, h2 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+/* Styling untuk paragraf - mengatur jarak dengan margin */
+p {
+  margin: 15px 0;
+  color: #333;
+}
+
+/* Styling untuk div pembungkus */
+div {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Styling untuk gambar profil */
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  display: block;
+}
+
+/* Styling untuk link */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+/* Styling untuk tabel */
+table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+  background-color: #f9fafb;
+}
+
+/* Styling untuk video */
+video {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+/* Styling untuk form */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+label {
+  font-weight: bold;
+  color: #374151;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d1d5db;
+  border-radius: 5px;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Styling untuk button */
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Styling untuk teks bold */
+b {
+  color: #1f2937;
+}

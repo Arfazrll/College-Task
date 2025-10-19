@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1728794776 source:c:\telkom university\semester 3\praktikum struktur data\tp 5\tpmodul5\list.cpp
+	"header.h"
+
+1728794780 c:\telkom university\semester 3\praktikum struktur data\tp 5\tpmodul5\header.h
+	<iostream>
+
+1728795723 source:c:\telkom university\semester 3\praktikum struktur data\tp 5\tpmodul5\main.cpp
+	"header.h"
+

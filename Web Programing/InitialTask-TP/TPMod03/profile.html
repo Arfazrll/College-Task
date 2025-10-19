@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Diri</title>
+  <!-- Menghubungkan file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Div: untuk mengelompokkan header dan pengantar halaman -->
+  <div>
+    <h1>My Personal Page</h1>
+    <p>
+      Haloo...<br>
+      Perkenalkan saya <b>Syahril Arfian Almazril</b> dengan NIM <b>103032300013</b> dari kelas <b>IT-47-04</b>.<br>
+      Berikut adalah informasi tentang saya.
+    </p>
+  </div>
+
+  <!-- Img: menampilkan foto profil -->
+  <img src="Foto Pribadi (Formal).jpg" alt="Foto Profil" width="150">
+
+  <p>
+    <!-- A (anchor): tautan ke profil eksternal, saya menggunakan link eksternal -->
+    Detail informasi tentang saya:
+    <a href="https://www.linkedin.com/in/syahril-arfian-almazril" target="_blank">LinkedIn</a>
+    &
+    <a href="https://github.com/Arfazrll" target="_blank">GitHub</a>.
+  </p>
+
+  <br>
+
+  <h2>Data Pribadi Saya</h2>
+  <!-- Table: memuat data terstruktur; th untuk judul kolom, tr baris, td sel data -->
+  <table border="1" cellpadding="8">
+    <tr>
+      <!-- th: judul kolom -->
+      <th>Informasi</th>
+      <th>Detail</th>
+    </tr>
+    <!-- tr: satu baris data; td: sel berisi nilai -->
+    <tr>
+      <td>Nama</td>
+      <td>Syahril Arfian Almazril</td>
+    </tr>
+    <tr>
+      <td>Universitas</td>
+      <td>Telkom University</td>
+    </tr>
+    <tr>
+      <td>Bidang</td>
+      <td>Artificial Intelligence & Machine Learning</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <h2>Video Perkenalan</h2>
+  <!-- Video: perkenalan singkat; -->
+  <video width="320" controls>
+    <source src="VidioProfileWebPro.mp4" type="video/mp4">
+  </video>
+
+  <br><br>
+
+  <h2>Kontak Saya</h2>
+  <!-- Form: input pengguna untuk mengirim pesan -->
+  <form action="#" method="post">
+    <!-- Label + Input (type=text): kolom nama pengirim agar dapat diidentifikasi -->
+    <label for="nama">Nama Anda:</label><br>
+    <!-- Input: untuk teks pendek seperti nama -->
+    <input id="nama" type="text" name="nama"><br><br>
+
+    <!-- Label + Textarea: area teks panjang untuk isi pesan -->
+    <label for="pesan">Pesan:</label><br>
+    <textarea id="pesan" name="pesan" rows="5" cols="40"></textarea><br><br>
+
+    <!-- Button: tombol untuk mengirim form. tidak bisa terkirim karna tidak ada fungsi yang dibuat -->
+    <button type="submit">Kirim</button>
+  </form>
+</body>
+</html>

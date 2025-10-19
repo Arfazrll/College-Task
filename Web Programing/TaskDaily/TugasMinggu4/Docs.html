@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Modern - Syahril Arfian Almazril</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #0d6efd; /* Biru */
+            --dark-color: #212529;
+            --light-gray: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light-gray);
+        }
+
+        .navbar {
+            transition: all 0.3s;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, rgba(13, 110, 253, 0.9), rgba(50, 65, 141, 0.9)), url('https://source.unsplash.com/random/1600x900/?technology,abstract') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 6rem 0;
+        }
+        .hero-section .display-4 {
+            font-weight: 700;
+        }
+        .hero-section .lead {
+            font-weight: 400;
+            max-width: 600px;
+            margin: 1rem auto;
+        }
+        .hero-section .btn {
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            transition: all 0.3s;
+        }
+
+        .content-card {
+            border: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+        .content-card:hover {
+            transform: translateY(-5px);
+        }
+        .content-card-header {
+            font-weight: 600;
+            font-size: 1.25rem;
+            color: var(--dark-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+        .experience-item h5 {
+            color: var(--dark-color);
+            font-weight: 600;
+        }
+        .experience-item .text-primary {
+            font-weight: 500;
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+        }
+        footer .social-icon a {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+        footer .social-icon a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+            <div class="container py-2">
+                <a class="navbar-brand fw-bold fs-4" href="#">Tugas Minggu 4 - Bootstrap</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fw-medium">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pengalaman">Pengalaman</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#keahlian">Keahlian</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyek">Proyek</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4">Syahril Arfian Almazril</h1>
+            <p class="lead">
+                Seorang mahasiswa Teknologi Informasi yang antusias dengan spesialisasi dalam Big Data dan Kecerdasan Buatan. Saya bersemangat mengubah data kompleks menjadi solusi yang bermakna.
+            </p>
+            <div class="mt-4">
+                <a href="mailto:azril4974@gmail.com" class="btn btn-light me-2">
+                    <i class="fas fa-envelope me-2"></i>Hubungi Saya
+                </a>
+                <a href="https://www.linkedin.com/in/syahril-arfian-almazril" target="_blank" class="btn btn-outline-light">
+                    <i class="fab fa-linkedin me-2"></i>Lihat LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container py-5">
+        <div class="row g-5">
+
+            <div class="col-lg-8">
+                <section id="pengalaman" class="card content-card">
+                    <div class="card-body p-4">
+                        <h3 class="content-card-header">Pengalaman Profesional</h3>
+                        <div class="experience-item mb-4">
+                            <h5>AI & Big Data Researcher</h5>
+                            <p class="text-primary mb-1">Cyber Physical System Laboratory | Mei 2025 - Sekarang</p>
+                            <ul class="text-muted">
+                                <li>Menganalisis dan memproses big data untuk pemodelan AI.</li>
+                                <li>Mengembangkan dan mengoptimalkan algoritma machine learning.</li>
+                            </ul>
+                        </div>
+                        <div class="experience-item">
+                            <h5>Data Entry & Researcher</h5>
+                            <p class="text-primary mb-1">Dinas Ketahanan Pangan, Kota Bandung | Mei 2024 - Jun 2024</p>
+                             <ul class="text-muted">
+                                <li>Memastikan akurasi dan integritas data untuk pelaporan.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-lg-4">
+                <section id="keahlian" class="card content-card mb-4">
+                    <div class="card-body p-4">
+                        <h3 class="content-card-header">Keahlian</h3>
+                        <p>
+                            <span class="badge text-bg-primary me-1 mb-1 p-2">Python</span>
+                            <span class="badge text-bg-primary me-1 mb-1 p-2">Data Analysis</span>
+                            <span class="badge text-bg-primary me-1 mb-1 p-2">Machine Learning</span>
+                            <span class="badge text-bg-secondary me-1 mb-1 p-2">Pandas</span>
+                            <span class="badge text-bg-secondary me-1 mb-1 p-2">Scikit-learn</span>
+                            <span class="badge text-bg-secondary me-1 mb-1 p-2">TensorFlow</span>
+                        </p>
+                    </div>
+                </section>
+
+                <section id="proyek" class="card content-card">
+                    <div class="card-body p-4">
+                        <h3 class="content-card-header">Proyek Unggulan</h3>
+                        <div class="mb-3">
+                            <h6 class="fw-bold">Real-Time Object Detection</h6>
+                            <p class="small text-muted">Implementasi model YOLO untuk deteksi objek secara langsung.</p>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold">Image Classification with CNN</h6>
+                            <p class="small text-muted">Membangun arsitektur CNN untuk klasifikasi gambar akurat.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-4 text-white">
+        <div class="container text-center">
+            <div class="social-icon mb-3">
+                <a href="https://www.linkedin.com/in/syahril-arfian-almazril" target="_blank" class="mx-2"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:azril4974@gmail.com" class="mx-2"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="mb-0">&copy; 2025 Syahril Arfian Almazril</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

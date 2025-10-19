@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1731823759 source:c:\telkom university\semester 3\praktikum struktur data\tp 10\tpmodul10\flight.cpp
+	"header.h"
+
+1731823748 c:\telkom university\semester 3\praktikum struktur data\tp 10\tpmodul10\header.h
+	<iostream>
+	<string>
+
+1731824358 source:c:\telkom university\semester 3\praktikum struktur data\tp 10\tpmodul10\main.cpp
+	"header.h"
+

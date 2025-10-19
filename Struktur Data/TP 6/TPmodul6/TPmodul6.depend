@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1729401717 source:c:\telkom university\semester 3\praktikum struktur data\tp 6\tpmodul6\dll.cpp
+	"dll.h"
+
+1729395600 c:\telkom university\semester 3\praktikum struktur data\tp 6\tpmodul6\dll.h
+	<iostream>
+	<string>
+
+1729406083 source:c:\telkom university\semester 3\praktikum struktur data\tp 6\tpmodul6\main.cpp
+	"dll.h"
+
