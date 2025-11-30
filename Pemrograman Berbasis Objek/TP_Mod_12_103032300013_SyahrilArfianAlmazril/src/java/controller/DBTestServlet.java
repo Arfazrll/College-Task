@@ -47,7 +47,6 @@ public class DBTestServlet extends HttpServlet {
             try (Connection conn = KoneksiDB.getConnection()) {
                 out.println("<p>Koneksi JDBC ke database TP12_Pratikkan <b>BERHASIL</b>.</p>");
 
-                // contoh eksplorasi: ambil isi tabel mahasiswa
                 out.println("<p>Data pada tabel <b>mahasiswa</b>:</p>");
                 out.println("<ul>");
 
