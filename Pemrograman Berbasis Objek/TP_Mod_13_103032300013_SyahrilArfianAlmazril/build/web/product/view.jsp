@@ -11,7 +11,6 @@
 <head>
     <title>Daftar Barang</title>
 
-    <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
@@ -20,16 +19,14 @@
 
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h2 class="mb-0">Daftar Barang</h2>
-        <!-- tombol kembali ke index -->
         <a href="<%= request.getContextPath() %>/index.jsp" class="btn btn-outline-secondary btn-sm">
-            Kembali ke Index
+            Kembali
         </a>
     </div>
 
     <div class="card shadow-sm">
         <div class="card-header d-flex justify-content-between align-items-center">
             <span class="fw-semibold">List Barang</span>
-            <!-- tombol ADD -->
             <a href="<%= request.getContextPath() %>/BarangController?menu=add" class="btn btn-sm btn-primary">
                 + Tambah Barang
             </a>
@@ -91,7 +88,6 @@
 
 </div>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

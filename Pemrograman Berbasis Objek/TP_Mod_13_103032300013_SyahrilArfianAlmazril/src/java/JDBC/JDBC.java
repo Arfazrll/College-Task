@@ -30,7 +30,7 @@ public class JDBC {
         String password = "root"; 
 
         try {
-            Class.forName("com.mysql.jdbc.Driver"); // sesuai modul
+            Class.forName("com.mysql.jdbc.Driver"); 
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/" + dbname,
                     username,

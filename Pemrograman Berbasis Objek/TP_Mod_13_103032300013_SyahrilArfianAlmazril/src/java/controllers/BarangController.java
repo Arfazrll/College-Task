@@ -29,22 +29,18 @@ public class BarangController extends HttpServlet {
         JDBC db = new JDBC();
 
         try {
-            // ===== TAMPIL DATA (DEFAULT) =====
             if (menu == null || menu.trim().isEmpty()) {
 
                 ResultSet rs = db.getData("SELECT * FROM barang");
                 request.setAttribute("list", rs);
-                // view.jsp ada di folder product
                 request.getRequestDispatcher("product/view.jsp")
                        .forward(request, response);
 
-            // ===== FORM TAMBAH BARANG =====
             } else if ("add".equals(menu)) {
 
                 request.getRequestDispatcher("product/add.jsp")
                        .forward(request, response);
 
-            // ===== PROSES INSERT BARANG BARU =====
             } else if ("insert".equals(menu)) {
 
                 String nama = request.getParameter("nama");
@@ -59,10 +55,8 @@ public class BarangController extends HttpServlet {
                              + nama + "', " + harga + ")";
                 db.runQuery(sql);
 
-                // kembali ke daftar barang
                 response.sendRedirect("BarangController");
 
-            // ===== FORM EDIT BARANG (AMBIL 1 RECORD) =====
             } else if ("edit".equals(menu)) {
 
                 String id = request.getParameter("id");
@@ -70,11 +64,9 @@ public class BarangController extends HttpServlet {
 
                 ResultSet rs = db.getData(sql);
                 request.setAttribute("list", rs);
-                // edit.jsp ada di folder product
                 request.getRequestDispatcher("product/edit.jsp")
                        .forward(request, response);
 
-            // ===== PROSES UPDATE BARANG =====
             } else if ("update".equals(menu)) {
 
                 String id = request.getParameter("id");
@@ -92,11 +84,9 @@ public class BarangController extends HttpServlet {
 
                 db.runQuery(sql);
 
-                // kembali ke daftar barang
                 response.sendRedirect("BarangController");
 
             } else {
-                // fallback kalau menu tidak dikenali
                 response.sendRedirect("index.jsp");
             }
 
