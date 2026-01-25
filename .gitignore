@@ -1,8 +1,73 @@
-*.pcapng
-*.pcapng
-*.pcapng
-*.pcapng
-/Pemrograman Berbasis Objek/TP_MOD_10_103032300013_SyahrilArfianAlmazril/target/
-/Pemrograman Berbasis Objek/TP_Mod_12_103032300013_SyahrilArfianAlmazril/nbproject/private/
-/Pemrograman Berbasis Objek/TP_Mod_13_103032300013_SyahrilArfianAlmazril/nbproject/private/
-/Pemrograman Berbasis Objek/TP_Mod_15_103032300013_SyahrilArfianAlmazril/WebApplication1/nbproject/private/
+# General
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+*.ipr
+*.iws
+.nb-gradle/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.gradletasknamecache
+bin/
+obj/
+*.layout
+*.depend
+*.cbp
+
+# Compilers & Build Artifacts
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.o
+*.a
+*.dll
+*.exe
+*.test
+*.out
+*.exe
+target/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Helper tools
+bfg-*.jar
+
+# Network Captures (Optional - keep if you want to track them, uncomment if you want to ignore)
+# *.pcap
+# *.pcapng
+
+# Documents (Optional - prevent accidental huge uploads, though this repo seems to be for storage)
+# *.pdf
+# *.docx

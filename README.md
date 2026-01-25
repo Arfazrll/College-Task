@@ -1,38 +1,48 @@
 # College Task Repository
 
-This repository contains a collection of materials, codes, and projects studied during the third semester, covering key subjects in programming and data structures. It is designed to aid learning and serve as a reference for future studies.
+This repository contains a collection of materials, codes, and projects studied during my college semesters. It is designed to aid learning and serve as a reference for future studies or anyone interested in these topics.
 
 ## 📂 Directory Structure
-The repository is organized into directories based on the subjects covered:
 
-1. **[Programming Algorithms (GO)](./Algoritma%20Pemrograman)**  
-   Includes materials, example codes, and assignments related to programming algorithms. Key topics include:
-   - Sorting and Searching Algorithms (Bubble Sort, Merge Sort, Binary Search, etc.)
-   - Basic Input/Output Operations
-   - Recursion Applications in Programming
+The repository is organized into directories based on the subjects:
 
-2. **[Introduction to Programming (GO)](./Pengenalan%20Pemrograman)**  
-   Covers the basics of programming for beginners. Topics include:
-   - Variables, Data Types, and Operators
-   - Conditional Statements (if-else, switch)
-   - Loops (for, while, do-while)
+1.  **[Programming Introduction](./Programming%20Introduction)**
+    *   Foundational programming concepts.
+    *   Basic logic and control structures.
 
-3. **[Data Structures (C++)](./Struktur%20Data)**  
-   Focuses on the implementation and application of classical data structures in programming, such as:
-   - Linked Lists (Singly, Doubly, Multi)
-   - Stacks and Queues
-   - Trees (Binary Tree, Binary Search Tree) and Graphs
+2.  **[Programming Algorithms](./Programming%20Algorithms)**
+    *   Implementation of standardized algorithms.
+    *   Sorting, searching, and optimization problems.
+
+3.  **[Data Structure](./Data%20Structure)**
+    *   Implementations of core data structures (Stacks, Queues, Linked Lists, Trees, etc.).
+    *   Efficiency analysis and usage examples.
+
+4.  **[Object Oriented Programming](./Object%20Oriented%20Programming)**
+    *   OOP concepts: Classes, Objects, Inheritance, Polymorphism, Encapsulation.
+    *   Project-based implementations.
+
+5.  **[Computer Network](./Computer%20Network)**
+    *   Networking protocols and configurations.
+    *   Packet analysis and network simulation tasks.
+
+6.  **[Web Programming](./Web%20Programming)**
+    *   Frontend and Backend web development.
+    *   HTML, CSS, PHP, and other web technologies.
 
 ## 🚀 How to Use
-1. Clone this repository to your computer:
-   ```bash
-   git clone https://github.com/Arfazrll/Sem3.git
-   ```
-   
-## 📖 Additional Information
-If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request. All contributions are greatly appreciated.
+
+1.  Clone this repository:
+    ```bash
+    git clone https://github.com/Arfazrll/College-Task.git
+    ```
+2.  Navigate to the subject folder you are interested in.
+3.  Read the specific assignment files or code.
+
+## 🤝 Contributing
+
+This is primarily a personal storage repo, but suggestions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 
 ---
 
-**Created with a passion for learning by Arfazrll**  
-For further information, feel free to contact me via GitHub.
+**Created by Arfazrll**
