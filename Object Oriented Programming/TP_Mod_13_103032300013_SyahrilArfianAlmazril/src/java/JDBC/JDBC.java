@@ -54,23 +54,44 @@ public class JDBC {
         }
     }
 
-    public void runQuery(String query) {
+    public void runUpdate(String sql, Object... params) {
+        PreparedStatement ps = null;
         try {
             connect();
-            int result = stmt.executeUpdate(query);
+            ps = con.prepareStatement(sql);
+            if (params != null) {
+                for (int i = 0; i < params.length; i++) {
+                    ps.setObject(i + 1, params[i]);
+                }
+            }
+            int result = ps.executeUpdate();
             message = "info: " + result + " rows affected";
         } catch (Exception e) {
             message = e.getMessage();
         } finally {
+            try {
+                if (ps != null) {
+                    ps.close();
+                }
+            } catch (Exception ex) {
+                // ignore
+            }
             disconnect();
         }
     }
 
-    public ResultSet getData(String query) {
+    public ResultSet getData(String sql, Object... params) {
         ResultSet rs = null;
+        PreparedStatement ps = null;
         try {
             connect();
-            rs = stmt.executeQuery(query);
+            ps = con.prepareStatement(sql);
+            if (params != null) {
+                for (int i = 0; i < params.length; i++) {
+                    ps.setObject(i + 1, params[i]);
+                }
+            }
+            rs = ps.executeQuery();
         } catch (Exception e) {
             message = e.getMessage();
         }
