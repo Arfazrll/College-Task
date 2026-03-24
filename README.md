@@ -1,83 +1,103 @@
 # 🎓 College-Task
 
-Welcome to my academic repository! This is a curated collection of materials, code, and projects developed during my Informatics Engineering studies. It serves as a comprehensive record of my learning progression, from fundamental logic to advanced architectural patterns and specialized domains like mobile development and networking.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)](#)
+[![Computer Science](https://img.shields.io/badge/Major-Informatics_Engineering-blue.svg)](#)
+
+Welcome to my academic repository. This space chronicles my educational journey in Informatics Engineering, showcasing a progression from fundamental programming logic to specialized domains like mobile application development, network engineering, and scientific research. 
+
+This repository is designed to serve as both a personal archive and an open reference for those interested in the academic foundations of software engineering and computer science.
 
 ---
 
-## 📂 Subject Overview
+## 📂 Academic Modules
 
-The repository is structured by academic subjects, reflecting a journey through diverse technologies and methodologies:
+The repository is organized by course modules, each focusing on specific technological domains and theoretical concepts.
 
-### 1. [Programming Introduction](./Programming%20Introduction) 🐹
-Foundational programming concepts, basic logic, and control structures.
-*   **Stack**: Go (Golang)
-*   **Focus**: Alphanumeric processing, 2D geometry, arithmetic algorithms, and basic data types.
+### [Programming Introduction](./Programming%20Introduction)
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white)
+*   **Concepts**: Foundational logic, control structures, and basic data types.
+*   **Key Projects**: Alphanumeric processing, 2D geometry engines, and arithmetic algorithm implementations.
 
-### 2. [Programming Algorithms](./Programming%20Algorithms) 📈
-Implementation and analysis of standardized algorithms and optimization techniques.
-*   **Stack**: Go (Golang)
-*   **Focus**: Sorting (Selection, Insertion, Bubble), searching algorithms, and recursive problem-solving.
+### [Programming Algorithms](./Programming%20Algorithms)
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white)
+*   **Concepts**: Search and Sort efficiency, recursive complexity, and optimization.
+*   **Focus**: Empirical analysis of Selection, Insertion, and Bubble sort algorithms.
 
-### 3. [Data Structure](./Data%20Structure) 🏗️
-Core data structures with emphasis on memory efficiency and algorithmic complexity.
-*   **Stack**: C / C++
-*   **Focus**: Linked Lists, Stacks, Queues, Trees (Binary Search Trees), and Graph implementations.
+### [Data Structure](./Data%20Structure)
+![C](https://img.shields.io/badge/C-%23A8B9CC.svg?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white)
+*   **Concepts**: Memory management, pointer arithmetic, and non-linear data organization.
+*   **Focus**: Native implementations of Linked Lists, BSTs, Stacks, and Graph theories.
 
-### 4. [Object Oriented Programming](./Object%20Oriented%20Programming) ☕
-Implementation of OOP principles such as Inheritance, Polymorphism, and Encapsulation.
-*   **Stack**: Java, Maven, JDBC
-*   **Focus**: Project-based implementations, database connectivity, and modular software design.
+### [Object Oriented Programming](./Object%20Oriented%20Programming)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white)
+*   **Concepts**: Encapsulation, Polymorphism, Inheritance, and Abstraction.
+*   **Focus**: Modular application design using Java, JDBC for database persistence, and Maven for dependency lifecycle management.
 
-### 5. [Computer Network](./Computer%20Network) 🔌
-Networking protocols, socket programming, and traffic analysis.
-*   **Stack**: Python, Wireshark
-*   **Highlights**: TCP/UDP Socket programming, ICMP Client/Server, DHCP Simulation, and `.pcap` packet analysis.
-*   **Documentation**: Includes IEEE 802.11 standards and technical protocol reports.
+### [Computer Network](./Computer%20Network)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+*   **Concepts**: OSI Model, TCP/IP stack, socket programming, and protocol analysis.
+*   **Highlights**: Native implementations of ICMP and DHCP servers, TCP/UDP transport layer simulations, and Wireshark Pcap analysis.
 
-### 6. [Web Programming](./Web%20Programming) 🌐
-Full-stack web development spanning from native implementations to modern frameworks.
-*   **Stack**: HTML5, CSS3, JavaScript, PHP (Native), Laravel (MVC)
-*   **Focus**: Responsive UI design, authentication systems, and session management.
+### [Web Programming](./Web%20Programming)
+![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=flat-square&logo=laravel&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+*   **Concepts**: Distributed systems, MVC architecture, session management, and frontend/backend integration.
+*   **Focus**: The evolution from procedural PHP to structured Laravel frameworks.
 
-### 7. [Mobile Application](./Mobile%20Application) 📱
-Cross-platform and native mobile application development.
-*   **Stack**: Flutter (Dart), Android (Java/Kotlin)
-*   **Focus**: Mobile UI layouts, state management, and basic native Android features.
+### [Mobile Application](./Mobile%20Application)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=flat-square&logo=dart&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+*   **Concepts**: State management, reactive UI, and cross-platform native features.
+*   **Focus**: Interactive UI development using Flutter and native Android (Kotlin/Java) fundamentals.
 
-### 8. [Research Methods and Scientific Writing](./Research%20Methods%20and%20Scientific%20Writing) 📝
-Academic research methodologies and technical documentation.
-*   **Tools**: LaTeX, PDF
-*   **Focus**: Scientific writing, research proposals, and adhering to IEEE documentation standards.
-
----
-
-## 🛠️ Tech Stack & Tools
-
-| Category | Tools & Technologies |
-| :--- | :--- |
-| **Languages** | Go, C, C++, Java, Python, PHP, JavaScript, Dart, Kotlin |
-| **Frameworks** | Laravel, Flutter, Android SDK, Maven |
-| **Networking** | Wireshark, Pcap Analysis, Socket Programming |
-| **Documentation** | LaTeX, IEEE Standards, Markdown |
-| **Databases** | MySQL / MariaDB |
+### [Research Methods](./Research%20Methods%20and%20Scientific%20Writing)
+![LaTeX](https://img.shields.io/badge/LaTeX-%23008080.svg?style=flat-square&logo=latex&logoColor=white)
+*   **Focus**: Scientific research workflows, IEEE formatting, and technical documentation excellence.
 
 ---
 
-## 🚀 How to Use
+## 🛠 Project Structure
 
-1.  **Clone the repository**:
+The repository follows a subject-oriented flat hierarchy for clarity:
+```bash
+.
+├── Computer Network                     # Networking protocols & scripts
+├── Data Structure                       # C/C++ data structure implementations
+├── Mobile Application                   # Flutter & Android project source
+├── Object Oriented Programming          # Java & Maven based OOP projects
+├── Programming Algorithms               # Go based sorting & searching algorithms
+├── Programming Introduction             # Fundamental logic in Go
+├── Research Methods and Writing         # Academic papers and LaTeX source
+├── Web Programming                      # PHP, Laravel, and Frontend tasks
+└── LICENSE                              # Repository license information
+```
+
+---
+
+## 🚀 Getting Started
+
+1.  **Clone the Repository**
     ```bash
     git clone https://github.com/Arfazrll/College-Task.git
     ```
-2.  Navigate to the subject folder of interest.
-3.  Explore the source code, project files, or detailed technical reports (PDFs) provided in each module.
+2.  **Navigation**
+    Each directory contains its own localized documentation or `README.md` (where applicable) explaining specific execution steps for the code contained within.
+
+3.  **Dependencies**
+    Ensure you have the relevant runtimes (JDK, Go, Flutter SDK, Python, etc.) installed to execute the assignments.
 
 ---
 
 ## 📝 License
 
-This repository is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for more information.
+This project is licensed under the **MIT License**. For full details, see the [LICENSE](./LICENSE) file.
 
 ---
 
-*Curated with ❤️ by **Arfazrll***
+*Authored and Maintained by **Arfazrll***
