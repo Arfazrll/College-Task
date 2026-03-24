@@ -1,4 +1,4 @@
-# 🎓 College-Task: Informatics Engineering Journey
+# 🎓 College-Task
 
 Welcome to my academic repository! This is a curated collection of materials, code, and projects developed during my Informatics Engineering studies. It serves as a comprehensive record of my learning progression, from fundamental logic to advanced architectural patterns and specialized domains like mobile development and networking.
 
