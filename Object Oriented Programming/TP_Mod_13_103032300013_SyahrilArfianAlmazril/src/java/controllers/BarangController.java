@@ -51,18 +51,17 @@ public class BarangController extends HttpServlet {
                     harga = Double.parseDouble(hargaStr);
                 }
 
-                String sql = "INSERT INTO barang (nama, harga) VALUES ('" 
-                             + nama + "', " + harga + ")";
-                db.runQuery(sql);
+                String sql = "INSERT INTO barang (nama, harga) VALUES (?, ?)";
+                db.runUpdate(sql, nama, harga);
 
                 response.sendRedirect("BarangController");
 
             } else if ("edit".equals(menu)) {
 
                 String id = request.getParameter("id");
-                String sql = "SELECT * FROM barang WHERE id = " + id;
+                String sql = "SELECT * FROM barang WHERE id = ?";
 
-                ResultSet rs = db.getData(sql);
+                ResultSet rs = db.getData(sql, id);
                 request.setAttribute("list", rs);
                 request.getRequestDispatcher("product/edit.jsp")
                        .forward(request, response);
@@ -79,10 +78,10 @@ public class BarangController extends HttpServlet {
                 }
 
                 String sql = "UPDATE barang "
-                           + "SET nama = '" + nama + "', harga = " + harga
-                           + " WHERE id = " + id;
+                           + "SET nama = ?, harga = ?"
+                           + " WHERE id = ?";
 
-                db.runQuery(sql);
+                db.runUpdate(sql, nama, harga, id);
 
                 response.sendRedirect("BarangController");
 
